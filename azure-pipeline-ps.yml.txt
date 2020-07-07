@@ -6,4 +6,4 @@ container:
   endpoint: DockerHub
 
 steps:
-- script: echo hello
+- script: echo pokemon
