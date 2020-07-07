@@ -1,0 +1,11 @@
+pool:
+  vmImage: 'ubuntu-16.04'
+
+container:
+  image: 650301/merlin:latest
+  endpoint: DockerHub
+
+steps:
+- script: echo hello
+
+- script: printenv
